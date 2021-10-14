@@ -1,0 +1,79 @@
+.container
+{
+	width: 540px;
+	margin:40px auto;
+	/*overflow: auto;*/
+}
+
+#box
+{
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	border-radius: 5px;
+	position: relative;
+	top: 30px;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+
+}
+
+h1
+{
+	text-align: center;
+}
+
+.outerDiv .pic
+{
+	display: block;
+}
+
+
+
+.outerDiv
+{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	/*display: none;*/
+	overflow: hidden;
+	float: left;
+}
+
+.outerDiv img
+{
+	/*display: none;*/
+	width: 600px;
+	height: 400px;
+}
+
+.buton
+{
+	position: relative;
+	top: 4px;
+}
+
+img
+{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	width:  1380px;
+	height: 621px;
+}
+
+header
+{
+	display: none;
+}
+
+h1, p
+{
+	position: relative;
+	top:-450px;
+	color: #123;
+	font-family: "comic-sans",cursive, serif
+}
